@@ -10,6 +10,8 @@ template.
 
 Tested with PlatformIO for VSCode using ESP-IDF version: *framework-espidf 3.30300.190916 (3.3.0)*
 
+![NAT-Setup (4)](https://user-images.githubusercontent.com/6740386/72107648-085e4a80-3332-11ea-95a7-e2269adb37dd.png)
+Example network setup using ESP32 as WiFi repeater. The diagram was created with [Draw.io](https://www.draw.io/).
 ## Get Started
 The following are the steps required to run this project on the ESP32 and turn it into a WiFi repeater.
 
