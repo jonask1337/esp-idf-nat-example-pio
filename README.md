@@ -38,11 +38,12 @@ Download the esp-idf-nat-example-pio project using the following command:
 ### Step 4 - Configure the project
 Adjust the WiFi settings in the `src/main.c` file. (see Configuration section below)
 
-Now you can build and flash the project using the PlatformIO toolchain.
+Now you can build and flash the project using the [PlatformIO](https://platformio.org/) toolchain.
 If the lwIP library with NAT is used correctly by the ESP-IDF and the NAT feature is enabled you should see 
 a *NAT is enabled* message in the output log of the ESP32.
 
 ## Configuration
+You may have to make some changes to the *platformio.ini* file depending on your setup and what ESP32 board you are using. 
 
 In the `src/main.c` file change the values of the *EXAMPLE_ESP_WIFI_SSID* and *EXAMPLE_ESP_WIFI_PASS* defines to the credentials
 of the WIFI network the ESP32 should connect to.
