@@ -8,6 +8,8 @@ The [esp-idf-nat-example](https://github.com/jonask1337/esp-idf-nat-example) ESP
 The PlatformIO [espidf-blink](https://github.com/platformio/platform-espressif32/tree/develop/examples/espidf-blink) example project was used as 
 template. 
 
+Tested with PlatformIO using ESP-IDF version: *framework-espidf 3.30300.190916 (3.3.0)*
+
 ## Configuration
 
 In the `main/main.c` file change the values of the *EXAMPLE_ESP_WIFI_SSID* and *EXAMPLE_ESP_WIFI_PASS* defines to the credentials
