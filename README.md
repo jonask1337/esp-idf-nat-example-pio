@@ -8,7 +8,7 @@ An example firmware to use the ESP32 as WiFi repeater.
 The PlatformIO [espidf-blink](https://github.com/platformio/platform-espressif32/tree/develop/examples/espidf-blink) example project was used as 
 template. 
 
-Tested with PlatformIO using ESP-IDF version: *framework-espidf 3.30300.190916 (3.3.0)*
+Tested with PlatformIO for VSCode using ESP-IDF version: *framework-espidf 3.30300.190916 (3.3.0)*
 
 ## Get Started
 The following are the steps required to run this project on the ESP32 and turn it into a WiFi repeater.
